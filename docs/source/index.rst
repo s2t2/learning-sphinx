@@ -11,12 +11,6 @@ Welcome to Learning Sphinx's documentation!
 This is some text on the Index page.
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 
 
@@ -28,3 +22,6 @@ Yep.
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   hello
+   about

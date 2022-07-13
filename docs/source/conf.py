@@ -63,7 +63,7 @@ html_static_path = ['_static']
 
 
 
-html_logo = os.path.join(os.path.dirname(__file__), "..", "..", "images", "bot.png")
+html_logo = os.path.join(os.path.dirname(__file__), "images", "bot.png")
 
 
 # https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#theme-options
