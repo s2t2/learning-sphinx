@@ -1,4 +1,9 @@
 
-
-
+# documentation generation
+# https://github.com/sphinx-doc/sphinx
 sphinx
+
+# "read the docs" html theme!
+# https://github.com/readthedocs/sphinx_rtd_theme
+#sphinx-rtd-theme
+sphinx_rtd_theme

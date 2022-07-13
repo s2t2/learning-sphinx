@@ -6,10 +6,9 @@
 Welcome to Learning Sphinx's documentation!
 ===========================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. The TOC tree needs to be in the index
 
+This is some text on the Index page.
 
 
 Indices and tables
@@ -18,3 +17,14 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+
+
+
+Yep.
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
