@@ -28,10 +28,17 @@ sphinx-quickstart
 
 
 
-Build:
+Build HTML (from the docs directory):
 
 ```sh
 make html
+
+open -a"Google Chrome" build/html/index.html
+```
+
+Build latex:
+
+```sh
 make latex
 ```
 
@@ -40,3 +47,4 @@ make latex
 ## References:
 
   + [How to Document using Sphinx: Part 1 — Setting up](https://www.youtube.com/watch?v=DSIuLnoKLd8)
+  + [Part 2](https://www.youtube.com/watch?v=RvJ54ADcVno)
