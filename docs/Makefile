@@ -12,6 +12,18 @@ BUILDDIR      = build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+
+# makefile practice
+say_hello:
+	echo "Hey, what's up?"
+
+# https://github.com/python/devguide/blob/main/Makefile#L159-L160
+htmlview: html
+	open -a"Google Chrome" build/html/index.html
+
+
+
+
 .PHONY: help Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
